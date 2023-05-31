@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Flatiron Task Lister</title>
+  <title>Flatiron Task Lister Review</title>
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
@@ -12,6 +12,15 @@
     <form id="create-task-form" action="" method="POST">
       <label for="new-task-description">Task description:</label>
       <input type="text" id="new-task-description" name="new-task-description" placeholder="description">
+      
+      <label for=""></label>
+
+      <select name="priority" id="priority">
+        <option value="1">High</option>
+        <option value="2">Medium</option>
+        <option value="3">Low</option>
+      </select>
+
       <input type="submit" value="Create New Task">
     </form>
 
